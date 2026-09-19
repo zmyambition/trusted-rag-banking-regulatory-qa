@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 数据与缓存（提交时排除真实数据与模型缓存）
+indexes/
+outputs/
+data/documents/*
+data/tables/*
+!data/documents/.gitkeep
+!data/tables/.gitkeep
+
+# 模型缓存
+*.onnx
+*.bin
+.cache/
+models/
+
+# 敏感信息
+.env
+*.key
+*.pem
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+~$*.docx
+~$*.xlsx
+
+# 测试缓存
+.pytest_cache/
+
+# 课程作业说明文档（教师提供，非本项目代码产物）
+项目提示词.md
+面向监管制度与统计报表的可信RAG问答系统_实验需求说明书.docx
+面向银行业监管制度与统计报表的可信RAG问答.docx

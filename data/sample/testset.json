@@ -1,0 +1,102 @@
+[
+  {
+    "question": "商业银行核心一级资本充足率不得低于多少？",
+    "answer": "5%",
+    "type": "text"
+  },
+  {
+    "question": "商业银行一级资本充足率不得低于多少？",
+    "answer": "6%",
+    "type": "text"
+  },
+  {
+    "question": "商业银行资本充足率不得低于多少？",
+    "answer": "8%",
+    "type": "text"
+  },
+  {
+    "question": "商业银行杠杆率不得低于多少？",
+    "answer": "4%",
+    "type": "text"
+  },
+  {
+    "question": "对一般企业债权的风险权重是多少？",
+    "answer": "100%",
+    "type": "text"
+  },
+  {
+    "question": "银行业金融机构发生重大事项后，应当在多少日内报告？",
+    "answer": "5个工作日",
+    "type": "text"
+  },
+  {
+    "question": "发生特别重大事项的，应当在多长时间内先行电话报告？",
+    "answer": "24小时",
+    "type": "text"
+  },
+  {
+    "question": "个人消费贷款期限最长不得超过多少年？",
+    "answer": "10年",
+    "type": "text"
+  },
+  {
+    "question": "单笔贷款金额超过多少万元的，应当追加有效担保？",
+    "answer": "500万",
+    "type": "text"
+  },
+  {
+    "question": "根据资本管理办法，一级资本充足率和核心一级资本充足率分别不得低于多少？",
+    "answer": "6%和5%",
+    "type": "text"
+  },
+  {
+    "question": "2024年一季度商业银行营业收入是多少亿元？",
+    "answer": "135.2亿元",
+    "type": "table"
+  },
+  {
+    "question": "2024年三季度商业银行净利润是多少亿元？",
+    "answer": "21.7亿元",
+    "type": "table"
+  },
+  {
+    "question": "2023年三季度商业银行不良贷款率是多少？",
+    "answer": "1.79%",
+    "type": "table"
+  },
+  {
+    "question": "A机构2025年6月总资产是多少亿元？",
+    "answer": "5200亿元",
+    "type": "table"
+  },
+  {
+    "question": "A机构2024年末营业收入是多少亿元？",
+    "answer": "300亿元",
+    "type": "table"
+  },
+  {
+    "question": "B机构2024年末营业收入是多少亿元？",
+    "answer": "450亿元",
+    "type": "table"
+  },
+  {
+    "question": "B机构2024年末营业收入比A机构高多少亿元？",
+    "answer": "150亿元",
+    "type": "table"
+  },
+  {
+    "question": "2024年一季度商业银行净利润是多少亿元？",
+    "answer": "19.5亿元",
+    "type": "table"
+  },
+  {
+    "question": "某机构发生数据泄露后应当在多少日内报告金融监管总局？",
+    "answer": "未找到足够证据",
+    "type": "text"
+  },
+  {
+    "question": "2020年一季度商业银行营业收入是多少亿元？",
+    "answer": "未找到足够证据",
+    "type": "table"
+  }
+]

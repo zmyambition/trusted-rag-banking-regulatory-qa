@@ -1,0 +1,19 @@
+# 可信 RAG 问答系统 — 运行依赖
+# 说明：核心系统仅依赖以下包；Embedding/Web UI 为可选扩展，见 README。
+
+python-docx==1.2.0
+PyMuPDF==1.26.5
+openpyxl==3.1.5
+pandas==2.3.3
+rank-bm25==0.2.2
+jieba==0.42.1
+rapidfuzz==3.13.0
+numpy==2.0.2
+
+# 测试
+pytest==8.4.2
+
+# 可选扩展（默认不安装，按需启用）：
+# sentence-transformers   # Embedding / Hybrid 检索
+# faiss-cpu               # 向量索引
+# streamlit               # Web UI
