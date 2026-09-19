@@ -63,6 +63,33 @@ pip install -r requirements.txt
 
 > 注：如遇 pip 网络问题，可配置国内镜像或系统代理。
 
+## 快速开始
+
+从克隆到跑通端到端演示，只需几步：
+
+```bash
+# 1. 克隆
+git clone https://github.com/zmyambition/trusted-rag-banking-regulatory-qa.git
+cd trusted-rag-banking-regulatory-qa
+
+# 2. 安装依赖
+pip install -r requirements.txt
+
+# 3. 生成样例数据（已有真实数据可跳过，直接放入 data/documents 与 data/tables）
+python scripts/generate_sample_data.py
+
+# 4. 建立索引
+python -m src.main index --force
+
+# 5. 端到端演示（自动跑文本题 + 表格题 + 拒答题）
+python -m src.main demo
+
+# 6. 运行单元测试
+python -m pytest
+```
+
+> Windows 若中文输出报 `UnicodeEncodeError`，请在命令前加 `PYTHONIOENCODING=utf-8`，例如 `PYTHONIOENCODING=utf-8 python -m src.main demo`。
+
 ## 数据目录
 
 将数据放入对应目录即可，系统会自动扫描：
